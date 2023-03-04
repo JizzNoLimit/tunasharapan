@@ -1,0 +1,29 @@
+{
+  "name": "tunasharapan",
+  "version": "1.0.0",
+  "description": "Web profile Karang Taruna Tunas Harapan Desa Harapan Jaya Kec. Muara Enim Kab. Muara Enim Sumsel-Indonesia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "npx tailwindcss -i ./views/asset/css/tailwind.css -o ./views/asset/css/style.css",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "karangTaruna",
+    "javascript",
+    "express",
+    "ejs",
+    "tailwindcss"
+  ],
+  "author": "jizznolimit",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}

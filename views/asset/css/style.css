@@ -613,6 +613,10 @@ h5{
   margin-top: auto;
 }
 
+.mt-20{
+  margin-top: 5rem;
+}
+
 .inline-block{
   display: inline-block;
 }
@@ -625,8 +629,8 @@ h5{
   display: none;
 }
 
-.h-20{
-  height: 5rem;
+.h-28{
+  height: 7rem;
 }
 
 .h-6{
@@ -643,6 +647,10 @@ h5{
 
 .h-full{
   height: 100%;
+}
+
+.h-\[450px\]{
+  height: 450px;
 }
 
 .w-6{
@@ -912,12 +920,24 @@ h5{
     margin-top: 140px;
   }
 
+  .md\:mt-\[120px\]{
+    margin-top: 120px;
+  }
+
+  .md\:mt-\[100px\]{
+    margin-top: 100px;
+  }
+
   .md\:flex{
     display: flex;
   }
 
   .md\:hidden{
     display: none;
+  }
+
+  .md\:h-\[450px\]{
+    height: 450px;
   }
 
   .md\:px-10{

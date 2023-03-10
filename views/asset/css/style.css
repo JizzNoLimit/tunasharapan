@@ -613,10 +613,6 @@ h5{
   margin-top: auto;
 }
 
-.mt-20{
-  margin-top: 5rem;
-}
-
 .inline-block{
   display: inline-block;
 }
@@ -629,8 +625,8 @@ h5{
   display: none;
 }
 
-.h-28{
-  height: 7rem;
+.h-20{
+  height: 5rem;
 }
 
 .h-6{
@@ -647,10 +643,6 @@ h5{
 
 .h-full{
   height: 100%;
-}
-
-.h-\[450px\]{
-  height: 450px;
 }
 
 .w-6{
@@ -673,12 +665,20 @@ h5{
   max-width: 1086px;
 }
 
-.max-w-\[1286px\]{
-  max-width: 1286px;
+.max-w-\[1820px\]{
+  max-width: 1820px;
 }
 
 .max-w-\[870px\]{
   max-width: 870px;
+}
+
+.max-w-\[1680px\]{
+  max-width: 1680px;
+}
+
+.max-w-\[1286px\]{
+  max-width: 1286px;
 }
 
 .-translate-y-full{
@@ -916,16 +916,12 @@ h5{
     margin-top: 0.5rem;
   }
 
-  .md\:mt-\[140px\]{
-    margin-top: 140px;
-  }
-
-  .md\:mt-\[120px\]{
-    margin-top: 120px;
-  }
-
   .md\:mt-\[100px\]{
     margin-top: 100px;
+  }
+
+  .md\:mt-\[140px\]{
+    margin-top: 140px;
   }
 
   .md\:flex{
@@ -936,8 +932,8 @@ h5{
     display: none;
   }
 
-  .md\:h-\[450px\]{
-    height: 450px;
+  .md\:h-\[540px\]{
+    height: 540px;
   }
 
   .md\:px-10{
